@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{3E338209-810D-563E-2E94-F078D23AD230}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="48" Column="5" />
       <File FileName="Assets/Scripts/Blocks.cs" Line="28" Column="5" />
+      <File FileName="Assets/Scripts/MazeController.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Puzzle2PlayerController.cs" Line="81" Column="36" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="68" Column="28" />
+      <File FileName="Assets/Scripts/AudioHandler.cs" Line="70" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9a0ab8c1-b23c-4e9f-9bf6-948692463051" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1192a24b-7b51-4108-a372-2fa7e59a22f2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
