@@ -46,6 +46,7 @@ public class Blocks : MonoBehaviour
         startPos = transform.position;
         destPos = startPos + movement;
         player.GetComponent<PlayerController>().stopPlayerMovement();
+        gameObject.GetComponent<AudioSource>().Play();
     }
 
     private void moveWord()

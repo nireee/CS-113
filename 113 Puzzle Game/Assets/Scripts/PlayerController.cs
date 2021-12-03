@@ -61,6 +61,18 @@ public class PlayerController : MonoBehaviour
             Vector2 direction = (Vector2) collision.gameObject.transform.position - p;
             collision.gameObject.GetComponent<Blocks>().moveIce(direction);
             return;
+        }        
+
+        if (collision.gameObject.transform.parent.name == "PF Grass A")
+        {
+            Debug.Log("OnCollisionEnter2DFlameTorch");
+            hasFlameTorch = true;
+            collision.gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.transform.parent.parent == null)
+        {
+            return;
         }
 
         if (collision.gameObject.transform.parent.parent.name == "Word")
@@ -70,13 +82,6 @@ public class PlayerController : MonoBehaviour
             Vector2 direction = (Vector2)collision.gameObject.transform.position - p;
             collision.gameObject.GetComponent<Blocks>().setupWordMovement(direction);
             return;
-        }
-
-        if (collision.gameObject.transform.parent.name == "PF Grass A")
-        {
-            Debug.Log("OnCollisionEnter2DFlameTorch");
-            hasFlameTorch = true;
-            collision.gameObject.SetActive(false);
         }
 
     }

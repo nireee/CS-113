@@ -8,7 +8,7 @@ public class Trigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,11 +19,14 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        door.GetComponent<Collider2D>().enabled = false;
+        Debug.Log("Trigger:OnCollisionEnter2D");
+        gameObject.GetComponent<AudioSource>().Play();
+        door.GetComponent<DoorController>().openDoor();
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        door.GetComponent<Collider2D>().enabled = true;
+        Debug.Log("Trigger:OnCollisionExit2D");
+        door.GetComponent<DoorController>().closeDoor();
     }
 }
