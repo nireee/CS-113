@@ -1588,7 +1588,7 @@ RectTransform:
   m_GameObject: {fileID: 1064587008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 86.20008, y: 86.20008, z: 86.20008}
+  m_LocalScale: {x: 116.78387, y: 116.78387, z: 116.78387}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1813,7 +1813,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c04625ab9229387489c3f395f0f8d122, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3c9d48e3e8ad90044a359bfee94f84ee, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1947,7 +1947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189, y: 298}
+  m_AnchoredPosition: {x: -158, y: 158}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1361663912
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CS 113 Puzzle Game
+  m_text: 'The Legend of Hylio '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d9b454495b7d24a7a933eb61bdfa0607, type: 2}
   m_sharedMaterial: {fileID: 7409485994217783921, guid: d9b454495b7d24a7a933eb61bdfa0607,
@@ -2478,7 +2478,7 @@ MonoBehaviour:
   clickUI: {fileID: 524891142}
   Tracks:
   - Name: Background
-    Track: {fileID: 8300000, guid: c04625ab9229387489c3f395f0f8d122, type: 3}
+    Track: {fileID: 8300000, guid: 3c9d48e3e8ad90044a359bfee94f84ee, type: 3}
     volume: 1
   - Name: ClickSound
     Track: {fileID: 8300000, guid: b6d1b4a1c8da01a4ea7972b477368d6b, type: 3}
